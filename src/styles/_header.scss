@@ -1,0 +1,19 @@
+header{
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+    nav{
+        background-color: $primary;
+        color: $dark;
+        .navbar-brand {
+                text-transform: uppercase;
+                font: bold 1.5rem $roboto;
+                letter-spacing: .16rem;
+            }
+        
+            .nav-item {
+                font: 900 1rem $roboto;
+                
+            }
+    }
+}

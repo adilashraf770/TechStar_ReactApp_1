@@ -1,0 +1,11 @@
+footer{
+    background-color: $primary;
+    color: $dark;
+    p{
+       font: 900 .7rem $roboto;
+       opacity: 0.7;
+        #name{
+            font: 800 1rem $name;
+        }
+    }
+}

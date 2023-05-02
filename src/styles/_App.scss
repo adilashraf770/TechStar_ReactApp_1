@@ -1,0 +1,34 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:wght@100&display=swap');
+
+// coolors
+@import 'colors';
+
+// Bootsrtap scss
+@import url('../../node_modules/bootstrap/scss/bootstrap.scss');
+
+// pages
+@import 'header';
+@import 'home';
+@import 'contact';
+@import 'footer';
+@import 'mediaquery';
+
+
+*{
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    body{
+        #root{
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            main{
+                flex: 1 0 auto;
+                min-height: 90vh;
+                width: 100%;
+            }
+        }
+
+    }
+}
